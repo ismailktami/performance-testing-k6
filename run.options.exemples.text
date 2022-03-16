@@ -1,1 +1,2 @@
 k6 run -u 10 --duration 30s script.js
+.\k6.exe run --out json=.\tests-k6\output.json  .\tests-k6\sample.test.js
